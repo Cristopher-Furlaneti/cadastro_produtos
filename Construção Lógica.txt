@@ -1,0 +1,13 @@
+Sequência de passos:
+
+1 - Abrir o navegador.
+
+2 - Entrar no site "https://cadastroprodutos-devaprender.netlify.app/".
+
+3 - Abrir a planilha "produtos.xlsx".
+
+4 - Copiar os dados dos campos respectivos e colar no formulário do site.
+
+5 - Repetir o processo para cada linha da planilha até o final.
+
+
