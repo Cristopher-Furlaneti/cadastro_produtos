@@ -16,13 +16,13 @@ Sequência de passos:
 
 #-Abrindo o navegador
 OPEN_BROWSER()
-pyautogui.sleep(0.8)
+pyautogui.sleep(1.5)
 #-Abrindo nova aba, colando o link destino e entrando no site
 PASTE_LINK()
-pyautogui.sleep(0.8)
+pyautogui.sleep(1.5)
 #-Carregando a planilha e os valores
 LOAD_WORKBOOK()
-pyautogui.sleep(0.8)
+pyautogui.sleep(1.5)
 #-Colando os valores nos campos respectivos e cadastrando
 PASTE_VALUES()
 

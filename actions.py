@@ -22,7 +22,7 @@ def PASTE_LINK():
 
 def LOAD_WORKBOOK():
     global sheet_produtos
-    workbook = openpyxl.load_workbook(r'C:\Users\crist\OneDrive\Área de Trabalho\python\bootcamp\aula02\produtos.xlsx')
+    workbook = openpyxl.load_workbook(r'C:\Users\crist\OneDrive\Área de Trabalho\python\bootcamp\cadastro_produtos\produtos.xlsx')
     sheet_produtos = workbook['produtos']
 
 
@@ -46,7 +46,7 @@ def PASTE_VALUES():
         if notificar_venda == 'Sim':
                 pyautogui.click(621, 689)
         else:
-                pyautogui.click(756,684)
-                pyautogui.click(721,773)
-                pyautogui.sleep(0.8)
-                pyautogui.click(1185,200)
+                pyautogui.click(756,684)       
+        pyautogui.click(721,773)
+        pyautogui.sleep(0.8)
+        pyautogui.click(1185,200)
